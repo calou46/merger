@@ -1,0 +1,293 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://qlcplus.sourceforge.net/Workspace" CurrentWindow="FunctionManager">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.8.2</Version>
+  <Author>SAM</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe Name="Universe 1" ID="0" Passthrough="0"/>
+   <Universe Name="Universe 2" ID="1" Passthrough="0"/>
+   <Universe Name="Universe 3" ID="2" Passthrough="0"/>
+   <Universe Name="Universe 4" ID="3" Passthrough="0"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>MEGA LED LIGHT</Manufacturer>
+   <Model>MJ-1023-4IN1</Model>
+   <Mode>11 Channel</Mode>
+   <ID>0</ID>
+   <Name>MJ-1023-4IN1 #1</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>11</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>MEGA LED LIGHT</Manufacturer>
+   <Model>MJ-1023-4IN1</Model>
+   <Mode>11 Channel</Mode>
+   <ID>1</ID>
+   <Name>MJ-1023-4IN1 #2</Name>
+   <Universe>0</Universe>
+   <Address>11</Address>
+   <Channels>11</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Chinois</Manufacturer>
+   <Model>15w rgbw led</Model>
+   <Mode>9CH</Mode>
+   <ID>2</ID>
+   <Name>15w rgbw led #1</Name>
+   <Universe>0</Universe>
+   <Address>22</Address>
+   <Channels>9</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Chinois</Manufacturer>
+   <Model>15w rgbw led</Model>
+   <Mode>9CH</Mode>
+   <ID>3</ID>
+   <Name>15w rgbw led #2</Name>
+   <Universe>0</Universe>
+   <Address>31</Address>
+   <Channels>9</Channels>
+  </Fixture>
+  <Function Name="lyre1 balaie hor" Type="EFX" ID="0">
+   <Fixture>
+    <ID>2</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>255</Intensity>
+   </Fixture>
+   <PropagationMode>Serial</PropagationMode>
+   <Speed Duration="5000" FadeIn="0" FadeOut="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>SingleShot</RunOrder>
+   <Algorithm>Line</Algorithm>
+   <Width>102</Width>
+   <Height>0</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>120</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>125</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Name="lyre2 balaie hor" Type="EFX" ID="1">
+   <Fixture>
+    <ID>0</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>255</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="5000" FadeIn="0" FadeOut="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Line</Algorithm>
+   <Width>102</Width>
+   <Height>0</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>120</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>125</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Name="lyre3 balaie hor" Type="EFX" ID="2">
+   <Fixture>
+    <ID>1</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>255</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="5000" FadeIn="0" FadeOut="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Line</Algorithm>
+   <Width>102</Width>
+   <Height>0</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>120</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>125</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Name="lyre4 balaie hor" Type="EFX" ID="3">
+   <Fixture>
+    <ID>3</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>255</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="5000" FadeIn="0" FadeOut="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Line</Algorithm>
+   <Width>102</Width>
+   <Height>0</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>120</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>125</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Name="balayage lyre sequenciel" Type="Chaser" ID="4">
+   <Speed Duration="5000" FadeIn="0" FadeOut="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="Common" FadeIn="Default" FadeOut="Default"/>
+   <Step Number="0" Hold="0" FadeIn="0" FadeOut="0">0</Step>
+   <Step Number="1" Hold="0" FadeIn="0" FadeOut="0">1</Step>
+   <Step Number="2" Hold="0" FadeIn="0" FadeOut="0">2</Step>
+   <Step Number="3" Hold="0" FadeIn="0" FadeOut="0">3</Step>
+  </Function>
+  <Function Name="lyre 1 dep" Type="Scene" ID="5">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="2">0,224,1,36</FixtureVal>
+  </Function>
+  <Function Name="lyre 2 dep" Type="Scene" ID="6">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="0">6,190,7,45</FixtureVal>
+  </Function>
+  <Function Name="lyre 3 dep" Type="Scene" ID="7">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="1">6,189,7,46</FixtureVal>
+  </Function>
+  <Function Name="lyre 4 dep" Type="Scene" ID="8">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="3">0,222,1,36</FixtureVal>
+  </Function>
+  <Function Name="pas lyre 1 pour fondu" Type="Chaser" ID="9">
+   <Speed Duration="50" FadeIn="0" FadeOut="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="PerStep" FadeIn="PerStep" FadeOut="PerStep"/>
+   <Step Number="0" Hold="500" FadeIn="0" FadeOut="0">5</Step>
+   <Step Number="1" Hold="3500" FadeIn="0" FadeOut="0">10</Step>
+  </Function>
+  <Function Name="lyre 1 arr" Type="Scene" ID="10">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="2">0,40,1,36</FixtureVal>
+  </Function>
+  <Function Name="lyre 2 arr" Type="Scene" ID="11">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="0">6,67,7,45</FixtureVal>
+  </Function>
+  <Function Name="lyre 3 arr" Type="Scene" ID="12">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="1">6,68,7,46</FixtureVal>
+  </Function>
+  <Function Name="lyre 4 arr" Type="Scene" ID="13">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="3">0,33,1,36</FixtureVal>
+  </Function>
+  <Function Name="pas lyre 2 pour fondu" Type="Chaser" ID="14">
+   <Speed Duration="1000" FadeIn="0" FadeOut="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="PerStep" FadeIn="PerStep" FadeOut="PerStep"/>
+   <Step Number="0" Hold="1000" FadeIn="0" FadeOut="0">6</Step>
+   <Step Number="1" Hold="3000" FadeIn="0" FadeOut="0">11</Step>
+  </Function>
+  <Function Name="effet lyre fondu mouvement" Type="Collection" ID="15">
+   <Step Number="0">9</Step>
+   <Step Number="1">14</Step>
+   <Step Number="2">16</Step>
+   <Step Number="3">17</Step>
+  </Function>
+  <Function Name="pas lyre 3 pour fondu" Type="Chaser" ID="16">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="PerStep" FadeIn="PerStep" FadeOut="PerStep"/>
+   <Step Number="0" Hold="1500" FadeIn="0" FadeOut="0">7</Step>
+   <Step Number="1" Hold="2500" FadeIn="0" FadeOut="0">12</Step>
+  </Function>
+  <Function Name="pas lyre 4 pour fondu" Type="Chaser" ID="17">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="PerStep" FadeIn="PerStep" FadeOut="PerStep"/>
+   <Step Number="0" Hold="2000" FadeIn="0" FadeOut="0">8</Step>
+   <Step Number="1" Hold="2000" FadeIn="0" FadeOut="0">13</Step>
+  </Function>
+  <Monitor DisplayMode="1" ShowLabels="0">
+   <Grid Height="2" Units="0" Width="2"/>
+   <FxItem YPos="1292.02" XPos="710.651" ID="0"/>
+   <FxItem YPos="1284.96" XPos="989.908" ID="1"/>
+   <FxItem YPos="1252.16" XPos="551.408" ID="2"/>
+   <FxItem YPos="1255.11" XPos="1250.05" ID="3"/>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <Button Icon="" ID="0" Caption="effet lyre fondu mouvement">
+    <Function ID="15"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState X="175" Y="95" Visible="False" Height="50" Width="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+  </Frame>
+  <Properties>
+   <Size Height="1080" Width="1920"/>
+   <Keyboard TapModifier="67108864"/>
+   <GrandMaster ChannelMode="Intensity" SliderMode="Normal" ValueMode="Reduce"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
+

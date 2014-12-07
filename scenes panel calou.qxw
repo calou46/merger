@@ -1,0 +1,358 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Workspace>
+<Workspace CurrentWindow="FunctionManager" xmlns="http://qlcplus.sourceforge.net/Workspace">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.8.2</Version>
+  <Author>SAM</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe ID="0" Name="Universe 1" Passthrough="0">
+    <Output Plugin="DMX USB" Line="4294967295"/>
+   </Universe>
+   <Universe ID="1" Name="Universe 2" Passthrough="0"/>
+   <Universe ID="2" Name="Universe 3" Passthrough="0"/>
+   <Universe ID="3" Name="Universe 4" Passthrough="0"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>Calou</Manufacturer>
+   <Model>Panel</Model>
+   <Mode>3ch</Mode>
+   <ID>0</ID>
+   <Name>Panel</Name>
+   <Universe>0</Universe>
+   <Address>399</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Function Path="panel/barres verticales" ID="0" Name="panel barre verticale R 1" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,129</FixtureVal>
+  </Function>
+  <Function Path="panel/barres verticales" ID="1" Name="panel barre verticale R 2" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,66</FixtureVal>
+  </Function>
+  <Function Path="panel/barres verticales" ID="2" Name="panel barre verticale R 3" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,36</FixtureVal>
+  </Function>
+  <Function Path="panel/barres verticales" ID="3" Name="panel barre verticale R 4" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,24</FixtureVal>
+  </Function>
+  <Function Path="panel/barres verticales" ID="4" Name="panel barre verticale V 1" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,129</FixtureVal>
+  </Function>
+  <Function Path="panel/barres verticales" ID="5" Name="panel barre verticale V 2" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,66</FixtureVal>
+  </Function>
+  <Function Path="panel/barres verticales" ID="6" Name="panel barre verticale V 3" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,36</FixtureVal>
+  </Function>
+  <Function Path="panel/barres verticales" ID="7" Name="panel barre verticale V 4" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,24</FixtureVal>
+  </Function>
+  <Function Path="panel/barres horizontales" ID="8" Name="panel barre horizontale B bas" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">2,240</FixtureVal>
+  </Function>
+  <Function Path="panel/barres verticales" ID="9" Name="panel barre verticale B 2" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">2,66</FixtureVal>
+  </Function>
+  <Function Path="panel/barres verticales" ID="10" Name="panel barre verticale B 3" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">2,36</FixtureVal>
+  </Function>
+  <Function Path="panel/barres verticales" ID="11" Name="panel barre verticale B 4" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">2,24</FixtureVal>
+  </Function>
+  <Function Path="panel" ID="12" Name="panel full B" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">2,255</FixtureVal>
+  </Function>
+  <Function Path="panel" ID="13" Name="panel full V" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,0</FixtureVal>
+  </Function>
+  <Function Path="panel" ID="14" Name="panel full R" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255</FixtureVal>
+  </Function>
+  <Function Path="panel/barres horizontales" ID="15" Name="panel barre horizontale R bas" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,240</FixtureVal>
+  </Function>
+  <Function Path="panel/barres horizontales" ID="16" Name="panel barre horizontale V bas" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,240</FixtureVal>
+  </Function>
+  <Function Path="panel/barres horizontales" ID="17" Name="panel barre horizontale B haut" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">2,15</FixtureVal>
+  </Function>
+  <Function Path="panel/barres horizontales" ID="18" Name="panel barre horizontale R haut" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,15</FixtureVal>
+  </Function>
+  <Function Path="panel/barres horizontales" ID="19" Name="panel barre horizontale V haut" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,15</FixtureVal>
+  </Function>
+  <Function Path="panel/barres verticales" ID="20" Name="panel barre verticale B 1" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">2,129</FixtureVal>
+  </Function>
+  <Function Path="panel/spots" ID="21" Name="panel spot R 1 " Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,1</FixtureVal>
+  </Function>
+  <Function Path="panel/spots" ID="22" Name="panel spot R 2" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,2</FixtureVal>
+  </Function>
+  <Function Path="panel/spots" ID="23" Name="panel spot R 3" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,4</FixtureVal>
+  </Function>
+  <Function Path="panel/spots" ID="24" Name="panel spot R 4" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,8</FixtureVal>
+  </Function>
+  <Function Path="panel/spots" ID="25" Name="panel spot R 5" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,16</FixtureVal>
+  </Function>
+  <Function Path="panel/spots" ID="26" Name="panel spot V 1" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,1</FixtureVal>
+  </Function>
+  <Function Path="panel/spots" ID="27" Name="panel spot V 2" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,2</FixtureVal>
+  </Function>
+  <Function Path="panel/spots" ID="28" Name="panel spot V 3" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,4</FixtureVal>
+  </Function>
+  <Function Path="panel/spots" ID="29" Name="panel spot R 6" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,32</FixtureVal>
+  </Function>
+  <Function Path="panel/spots" ID="30" Name="panel spot R 7" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,64</FixtureVal>
+  </Function>
+  <Function Path="panel/spots" ID="31" Name="panel spot R 8" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,128</FixtureVal>
+  </Function>
+  <Function Path="panel/spots" ID="32" Name="panel spot V 4" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,8</FixtureVal>
+  </Function>
+  <Function Path="panel/spots" ID="33" Name="panel spot V 5" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,16</FixtureVal>
+  </Function>
+  <Function Path="panel/spots" ID="34" Name="panel spot V 7" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,64</FixtureVal>
+  </Function>
+  <Function Path="panel/spots" ID="35" Name="panel spot V 6" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,32</FixtureVal>
+  </Function>
+  <Function Path="panel/spots" ID="36" Name="panel spot V 8" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,128</FixtureVal>
+  </Function>
+  <Function Path="panel/spots" ID="37" Name="panel spot B 1" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">2,1</FixtureVal>
+  </Function>
+  <Function Path="panel/spots" ID="38" Name="panel spot B 2" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">2,2</FixtureVal>
+  </Function>
+  <Function Path="panel/spots" ID="39" Name="panel spot B 7" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">2,64</FixtureVal>
+  </Function>
+  <Function Path="panel/spots" ID="40" Name="panel spot B 5" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">2,16</FixtureVal>
+  </Function>
+  <Function Path="panel/spots" ID="41" Name="panel spot B 4" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">2,8</FixtureVal>
+  </Function>
+  <Function Path="panel/spots" ID="42" Name="panel spot B 3" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">2,4</FixtureVal>
+  </Function>
+  <Function Path="panel/spots" ID="43" Name="panel spot B 6" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">2,32</FixtureVal>
+  </Function>
+  <Function Path="panel/spots" ID="44" Name="panel spot B 8" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">2,128</FixtureVal>
+  </Function>
+  <Function ID="45" Name="chenille V" Type="Chaser">
+   <Speed FadeIn="0" FadeOut="0" Duration="100"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Random</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step FadeIn="0" FadeOut="0" Hold="0" Number="0">26</Step>
+   <Step FadeIn="0" FadeOut="0" Hold="0" Number="1">27</Step>
+   <Step FadeIn="0" FadeOut="0" Hold="0" Number="2">28</Step>
+   <Step FadeIn="0" FadeOut="0" Hold="0" Number="3">32</Step>
+   <Step FadeIn="0" FadeOut="0" Hold="0" Number="4">33</Step>
+   <Step FadeIn="0" FadeOut="0" Hold="0" Number="5">35</Step>
+   <Step FadeIn="0" FadeOut="0" Hold="0" Number="6">34</Step>
+   <Step FadeIn="0" FadeOut="0" Hold="0" Number="7">36</Step>
+  </Function>
+  <Function ID="46" Name="scintille RVB" Type="Chaser">
+   <Speed FadeIn="0" FadeOut="0" Duration="100"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Random</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step FadeIn="0" FadeOut="0" Hold="0" Number="0">37</Step>
+   <Step FadeIn="0" FadeOut="0" Hold="0" Number="1">38</Step>
+   <Step FadeIn="0" FadeOut="0" Hold="0" Number="2">42</Step>
+   <Step FadeIn="0" FadeOut="0" Hold="0" Number="3">41</Step>
+   <Step FadeIn="0" FadeOut="0" Hold="0" Number="4">40</Step>
+   <Step FadeIn="0" FadeOut="0" Hold="0" Number="5">43</Step>
+   <Step FadeIn="0" FadeOut="0" Hold="0" Number="6">39</Step>
+   <Step FadeIn="0" FadeOut="0" Hold="0" Number="7">44</Step>
+   <Step FadeIn="0" FadeOut="0" Hold="0" Number="8">21</Step>
+   <Step FadeIn="0" FadeOut="0" Hold="0" Number="9">22</Step>
+   <Step FadeIn="0" FadeOut="0" Hold="0" Number="10">23</Step>
+   <Step FadeIn="0" FadeOut="0" Hold="0" Number="11">24</Step>
+   <Step FadeIn="0" FadeOut="0" Hold="0" Number="12">25</Step>
+   <Step FadeIn="0" FadeOut="0" Hold="0" Number="13">29</Step>
+   <Step FadeIn="0" FadeOut="0" Hold="0" Number="14">30</Step>
+   <Step FadeIn="0" FadeOut="0" Hold="0" Number="15">31</Step>
+   <Step FadeIn="0" FadeOut="0" Hold="0" Number="16">26</Step>
+   <Step FadeIn="0" FadeOut="0" Hold="0" Number="17">27</Step>
+   <Step FadeIn="0" FadeOut="0" Hold="0" Number="18">28</Step>
+   <Step FadeIn="0" FadeOut="0" Hold="0" Number="19">32</Step>
+   <Step FadeIn="0" FadeOut="0" Hold="0" Number="20">33</Step>
+   <Step FadeIn="0" FadeOut="0" Hold="0" Number="21">35</Step>
+   <Step FadeIn="0" FadeOut="0" Hold="0" Number="22">34</Step>
+   <Step FadeIn="0" FadeOut="0" Hold="0" Number="23">36</Step>
+  </Function>
+  <Function Path="panel" ID="47" Name="panel full RVB" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,255</FixtureVal>
+  </Function>
+  <Function Path="panel" ID="48" Name="panel black" Type="Scene">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0,1,0,2,0</FixtureVal>
+  </Function>
+  <Function ID="49" Name="strobe" Type="Chaser">
+   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="PerStep" FadeOut="PerStep" Duration="PerStep"/>
+   <Step FadeIn="0" FadeOut="0" Hold="50" Number="0">47</Step>
+   <Step FadeIn="0" FadeOut="0" Hold="100" Number="1">48</Step>
+  </Function>
+  <Function ID="50" Name="pas strobe" Type="Chaser">
+   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="PerStep" FadeOut="PerStep" Duration="PerStep"/>
+   <Step FadeIn="0" FadeOut="0" Hold="20" Number="0">47</Step>
+   <Step FadeIn="0" FadeOut="0" Hold="200" Number="1">48</Step>
+  </Function>
+  <Monitor ShowLabels="0" DisplayMode="1">
+   <Grid Height="5" Units="0" Width="5"/>
+   <FxItem ID="0" YPos="0" XPos="0"/>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <SoloFrame ID="3" Caption="">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="False" X="40" Height="200" Y="55" Width="200"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Enable>
+     <Key></Key>
+    </Enable>
+    <Button ID="0" Caption="strobe" Icon="">
+     <Function ID="49"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <WindowState Visible="False" X="115" Height="50" Y="45" Width="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button ID="1" Caption="scintille RVB" Icon="">
+     <Function ID="45"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <WindowState Visible="False" X="65" Height="50" Y="45" Width="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button ID="2" Caption="scintille RVB" Icon="">
+     <Function ID="46"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <WindowState Visible="False" X="20" Height="50" Y="45" Width="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+   </SoloFrame>
+  </Frame>
+  <Properties>
+   <Size Height="1080" Width="1920"/>
+   <Keyboard TapModifier="67108864"/>
+   <GrandMaster SliderMode="Normal" ValueMode="Reduce" ChannelMode="Intensity"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
+
